@@ -70,7 +70,7 @@ print(profile.mod, sint = "lower")
 print(profile.mod, sint = "upper")
 
 ## Performing automatic search
-remim.mod = remim2(data = data, score.null = score.null, sig.fwd = 0.2, sig.bwd = 0.05, w.size = 15, d.sint = 1.5, n.clusters = 1)
+remim.mod = remim(data = data, score.null = score.null, sig.fwd = 0.2, sig.bwd = 0.05, w.size = 15, d.sint = 1.5, n.clusters = 1)
 
 ## Visualizing results
 print(remim.mod)
